@@ -25,12 +25,12 @@ export class LoginComponent implements OnInit {
         switch(err.code) {
           case "auth/invalid-email":
             message = 'Email inválido'
-            break
+            break;
+
           case "auth/user-not-found":
             message = 'Usuário não encontrado'
-            break
-          default:
-            message = 'Ocorreu um erro'
+            break;
+
         }
 
         this.snackBar.open(message, 'Fechar', {
