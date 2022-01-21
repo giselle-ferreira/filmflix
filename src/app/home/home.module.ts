@@ -5,11 +5,13 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { ProfileComponent } from './profile/profile.component';
+import { HomeComponent } from './home.component';
 
 
 @NgModule({
   declarations: [
-    ProfileComponent
+    ProfileComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule,
